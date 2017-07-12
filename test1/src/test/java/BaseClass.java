@@ -16,7 +16,6 @@ public class BaseClass {
     public void setup() {
         System.setProperty("webdriver.gecko.driver", "/home/achoudhary/dev/Test/test1/src/test/resources/drivers/wires.exe");
         driver = new FirefoxDriver();
-        System.out.print("Hi");
         driver.manage().window().maximize();
     }
 
